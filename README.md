@@ -99,6 +99,8 @@ The setup is rather simply and with off the shelf parts, bill of material ca. 20
 
 ## Next Steps
 
+- Improve Documentation
 - Simulate a beard
-- 
+- Closed loop controller for volumen flow
+- Automate whole measurement
 
