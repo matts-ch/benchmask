@@ -34,12 +34,17 @@ I am an employee from Sensirion, therefore It was obvious to choose these sensor
 ## Findings
 
 
-![alt text](https://github.com/matts-ch/benchmask/blob/main/bad_nose_piece.jpg "Bad Nosepiece")
-![alt text](https://github.com/matts-ch/benchmask/blob/main/flatmask.jpg "Bad Nosepiece")
+
+
+![alt text](https://github.com/matts-ch/benchmask/blob/main/overview.png "Example Measurement Set")
 - Sealing is important, see e.g. the mask with the "bad nosepiece" with tape, this mask performs excellent
+![alt text](https://github.com/matts-ch/benchmask/blob/main/bad_nose_piece.jpg "Bad Nosepiece")
+![alt text](https://github.com/matts-ch/benchmask/blob/main/overview_badnp.png "Bad Nosepiece")
+
 - Cotton and other regular community masks perform rather poorly
 - "Flat masks" perform very poorly, especially if there is no nose piece
-
+![alt text](https://github.com/matts-ch/benchmask/blob/main/flatmask.jpg "Bad Nosepiece")
+![alt text](https://github.com/matts-ch/benchmask/blob/main/overview_flat.png "Flat mask, bad filtration, hard to breath if taped")
 
 
 ![alt text](https://github.com/matts-ch/benchmask/blob/main/overview.png "Example Measurement Set")
