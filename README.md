@@ -2,6 +2,15 @@
 Simple Setup to Benchmark Facemasks
 
 
+ * [Table of contents](#table-of-contents)
+ * [Goal](#Goal)
+ * [Findings](#Findings)
+ * [Features](#Features)
+ * [Setup](#Setup)
+ * [Procedure](#Procedure)
+ * [Next Steps](#next steps)
+
+
 
 ## Goal
 
@@ -24,14 +33,25 @@ I am an employee from Sensirion, therefore It was obvious to choose these sensor
 
 ## Findings
 
-- Sealing is important, see e.g. the mask with the "bad nosepiece" with tape, this mask performs excellent
 
 ![alt text](https://github.com/matts-ch/benchmask/blob/main/bad_nose_piece.jpg "Bad Nosepiece")
+![alt text](https://github.com/matts-ch/benchmask/blob/main/flatmask.jpg "Bad Nosepiece")
+- Sealing is important, see e.g. the mask with the "bad nosepiece" with tape, this mask performs excellent
 - Cotton and other regular community masks perform rather poorly
+- "Flat masks" perform very poorly, especially if there is no nose piece
+
 
 
 ![alt text](https://github.com/matts-ch/benchmask/blob/main/overview.png "Example Measurement Set")
 
+## Features
+
+- Benchmark filtration efficiency
+- Benchmark differential pressure (how hard to breath through mask)
+- More realistic test, dummy head instead of the usual fabric only lab tests
+- Huge range of volume flows possible
+- Both directions possible (in-/exhale)
+- Very simple setup, off the shelf and cheap parts
 
 ## Setup
 
@@ -77,5 +97,8 @@ The setup is rather simply and with off the shelf parts, bill of material ca. 20
 - normalize filtration efficiency and pressure drop with volume flow (sometimes it is not possible to perfectly match the desired volume flow)
 
 
+## Next Steps
 
+- Simulate a beard
+- 
 
