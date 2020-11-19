@@ -61,6 +61,11 @@ I am an employee from Sensirion, therefore It was obvious to choose these sensor
 - Both directions possible (in-/exhale)
 - Very simple setup, off the shelf and cheap parts
 
+and some limitations
+- I used only one artificial head, the findings are only valid with for that exact head. 
+- Particulate matter measurements are hard, I used a very affordable sensor, not lab equipment
+- The Efficiency scaling is off, I need to adjust it, but the relative comparison is valid
+
 ## Setup
 
 ![alt text](https://github.com/matts-ch/benchmask/blob/main/system.JPG "Overview Setup")
@@ -85,6 +90,7 @@ The setup is rather simply and with off the shelf parts, bill of material ca. 20
 - Differential pressure sensor, I used a SDP3x evaluation board, but also SDP6xx, SDP8xx work perfect for that job. If you choose the sensor, keep in mind, that the differential pressure is rather small (ca. 20Pa), this is very small for the usual membrane based sensors
 - Particulate matter sensor, I recommend a SPS30. 
 - Humidity/Temperature sensor, not absolutely necessary, but a very low relative humidity might lead to static charges and therefore an additional 'cleaning effect', SHT31 is a very robust choice and readily available on breakout boards
+- Head: I used a hairpiece stand, but obviously 3D printing is always an option
 
 
 
@@ -109,6 +115,7 @@ The setup is rather simply and with off the shelf parts, bill of material ca. 20
 
 - Improve Documentation
 - Simulate a beard
+- Use a second head
 - Closed loop controller for volumen flow
 - Automate whole measurement
 
