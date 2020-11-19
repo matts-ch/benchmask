@@ -82,7 +82,7 @@ and some limitations
 
 The main idea is to use the fan with the mask as a air purifier inside a closed space. The better the mask, the faster the decrease in particle concentration. Given everything else (mainly the volume flow) ist constant. 
 
-The setup is rather simply and with off the shelf parts, bill of material ca. 200USD. 
+The setup is rather simple and with off the shelf parts, bill of material ca. 200USD. 
 
 - Fan, e.g. remote control plane electric ducted fan (EDF), search for EDF (e.g. Banggood, Hobbyking etc.)
 - Speed controller for the fan, also RC stuff, search for brushless esc. The requirements in terms of voltage/amps are minimal (8V,5A should already do it)
