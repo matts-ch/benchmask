@@ -8,7 +8,7 @@ Simple Setup to Benchmark Facemasks
  * [Features](#Features)
  * [Setup](#Setup)
  * [Procedure](#Procedure)
- * [Next Steps](#next steps)
+ * [Next Steps](#next-steps)
 
 
 
