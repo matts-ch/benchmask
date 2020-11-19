@@ -18,6 +18,7 @@ And yes, I think a bad mask is still better than no mask, mainly for the big dro
 
 Disclaimer: 
 This is intentionally a very early publication. I will add more details and code, if someone is interested (agile publishing ;-))
+Filtration efficiency needs rescaling, but the relative values among the masks are OK. 
 I am an employee from Sensirion, therefore It was obvious to choose these sensors
 
 
