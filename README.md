@@ -5,9 +5,9 @@ Simple Setup to Benchmark Facemasks
 
 ## Goal
 
-- Mostly relative Benchmark masks in terms of filtration efficiency and differential pressure
-- Sealing to dummy head is tested as well
-- Affordable setup, bill of material of ca. 200USD
+- Cheap, easy setup to benchmark masks in terms of filtration efficiency and differential pressure
+- Sealing to (dummy) head is tested as well
+
 
 Fineprint, what it is not, and disclaimer
 
@@ -24,6 +24,8 @@ I am an employee from Sensirion, therefore It was obvious to choose these sensor
 ## Findings
 
 - Sealing is important, see e.g. the mask with the "bad nosepiece" with tape, this mask performs excellent
+
+![alt text](https://github.com/matts-ch/benchmask/blob/main/bad_nose_piece.png "Bad Nosepiece")
 - Cotton and other regular community masks perform rather poorly
 
 
@@ -34,9 +36,19 @@ I am an employee from Sensirion, therefore It was obvious to choose these sensor
 
 ![alt text](https://github.com/matts-ch/benchmask/blob/main/system.JPG "Overview Setup")
 
+
+![alt text](https://github.com/matts-ch/benchmask/blob/main/system_photo1.png "Overview Setup")
+
+
+![alt text](https://github.com/matts-ch/benchmask/blob/main/head.png "Head")
+
+
+![alt text](https://github.com/matts-ch/benchmask/blob/main/box.png "Box")
+
+
 The main idea is to use the fan with the mask as a air purifier inside a closed space. The better the mask, the faster the decrease in particle concentration. Given everything else (mainly the volume flow) ist constant. 
 
-The setup is rather simply and with off the shelf parts. 
+The setup is rather simply and with off the shelf parts, bill of material ca. 200USD. 
 
 - Fan, e.g. remote control plane electric ducted fan (EDF), search for EDF (e.g. Banggood, Hobbyking etc.)
 - Speed controller for the fan, also RC stuff, search for brushless esc. The requirements in terms of voltage/amps are minimal (8V,5A should already do it)
@@ -50,6 +62,8 @@ The setup is rather simply and with off the shelf parts.
 
 ## Procedure
 
+- Wear mask
+![alt text](https://github.com/matts-ch/benchmask/blob/main/ffp2.png "ffp2 mask")
 - Generate particles inside the box (extinguish small candle)
 - Close box
 - Set fan speed such that the flow is in the desired range (I used 20litres/minute)
