@@ -2,7 +2,6 @@
 Simple Setup to Benchmark Facemasks
 
 
- * [Table of contents](#table-of-contents)
  * [Goal](#Goal)
  * [Findings](#Findings)
  * [Features](#Features)
