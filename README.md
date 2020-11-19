@@ -118,3 +118,9 @@ The setup is rather simple and with off the shelf parts, bill of material ca. 20
 - Closed loop controller for volumen flow
 - Automate whole measurement
 
+For questions, comments etc. please contact me through www.linkedin.com/in/matthias-schibli
+
+
+
+
+
