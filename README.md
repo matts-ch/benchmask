@@ -84,7 +84,7 @@ The setup is rather simply and with off the shelf parts, bill of material ca. 20
 - Flow sensor is usded to measure the volume flow, I used a SFM3019
 - Differential pressure sensor, I used a SDP3x evaluation board, but also SDP6xx, SDP8xx work perfect for that job. If you choose the sensor, keep in mind, that the differential pressure is rather small (ca. 20Pa), this is very small for the usual membrane based sensors
 - Particulate matter sensor, I recommend a SPS30. 
-- Humidity/Temperature sensor, not absolutely necessary, but a very low relative humidity might lead to static charges and therefore an additional 'cleaning effect'
+- Humidity/Temperature sensor, not absolutely necessary, but a very low relative humidity might lead to static charges and therefore an additional 'cleaning effect', SHT31 is a very robust choice and readily available on breakout boards
 
 
 
