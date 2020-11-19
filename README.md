@@ -25,7 +25,7 @@ I am an employee from Sensirion, therefore It was obvious to choose these sensor
 
 - Sealing is important, see e.g. the mask with the "bad nosepiece" with tape, this mask performs excellent
 
-![alt text](https://github.com/matts-ch/benchmask/blob/main/bad_nose_piece.png "Bad Nosepiece")
+![alt text](https://github.com/matts-ch/benchmask/blob/main/bad_nose_piece.jpg "Bad Nosepiece")
 - Cotton and other regular community masks perform rather poorly
 
 
@@ -43,7 +43,7 @@ I am an employee from Sensirion, therefore It was obvious to choose these sensor
 ![alt text](https://github.com/matts-ch/benchmask/blob/main/head.png "Head")
 
 
-![alt text](https://github.com/matts-ch/benchmask/blob/main/box.png "Box")
+![alt text](https://github.com/matts-ch/benchmask/blob/main/box.jpg "Box")
 
 
 The main idea is to use the fan with the mask as a air purifier inside a closed space. The better the mask, the faster the decrease in particle concentration. Given everything else (mainly the volume flow) ist constant. 
