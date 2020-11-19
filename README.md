@@ -43,7 +43,7 @@ I am an employee from Sensirion, therefore It was obvious to choose these sensor
 ![alt text](https://github.com/matts-ch/benchmask/blob/main/head.png "Head")
 
 
-![alt text](https://github.com/matts-ch/benchmask/blob/main/box.jpg "Box")
+![alt text](https://github.com/matts-ch/benchmask/blob/main/Box.jpg "Box")
 
 
 The main idea is to use the fan with the mask as a air purifier inside a closed space. The better the mask, the faster the decrease in particle concentration. Given everything else (mainly the volume flow) ist constant. 
@@ -63,7 +63,7 @@ The setup is rather simply and with off the shelf parts, bill of material ca. 20
 ## Procedure
 
 - Wear mask
-![alt text](https://github.com/matts-ch/benchmask/blob/main/ffp2.png "ffp2 mask")
+![alt text](https://github.com/matts-ch/benchmask/blob/main/ffp2.jpg "ffp2 mask")
 - Generate particles inside the box (extinguish small candle)
 - Close box
 - Set fan speed such that the flow is in the desired range (I used 20litres/minute)
