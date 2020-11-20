@@ -53,7 +53,7 @@ I am an employee from Sensirion, therefore It was obvious to choose these sensor
 
 ## Features
 
-- Benchmark filtration efficiency
+- Benchmark filtration efficiency, use PM1 as proxy for areosols
 - Benchmark differential pressure (how hard to breath through mask)
 - More realistic test, dummy head instead of the usual fabric only lab tests
 - Huge range of volume flows possible
