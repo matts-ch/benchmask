@@ -11,7 +11,7 @@
 <li>No policitcal, medical claims</li>
 </ul>
 <p>And yes, I think a bad mask is still better than no mask, mainly for the big droplet transmission vector. For aerosols, I assume only a good mask with good sealing can make a difference.</p>
-<p>Disclaimer: <br />This is intentionally a very early publication. I will add more details and code, if someone is interested (agile publishing ;-))<br />Filtration efficiency needs rescaling, but the relative values among the masks are OK. <br />I work for Sensirion, therefore It was obvious to choose these sensors, but this project was done off the clock.&nbsp;</p>
+<p><strong>Disclaimer</strong><br />This is intentionally an early publication. I will add more details and code, if someone is interested (agile publishing ;-))<br />I work for Sensirion, therefore It was obvious to choose these sensors, but this project was done off the clock.&nbsp;</p>
 <h2><br />Findings</h2>
 <p>This is an interactive plot, you can deselect masks in the legend or zoom</p>
 <p><iframe src="//plotly.com/~mschibli/3.embed" width="1300" height="800" frameborder="0" scrolling="no"></iframe></p>
@@ -30,146 +30,155 @@
 <tr style="text-align: right;">
 <th>&nbsp;</th>
 <th>type</th>
-<th>PM0.5 Efficiency</th>
-<th>PM1.0 Efficiency</th>
-<th>PM2.5 Efficiency</th>
-<th>Differential Pressure</th>
+<th>PM0.5 Efficiency [%]</th>
+<th>PM1.0 Efficiency [%]</th>
+<th>PM2.5 Efficiency [%]</th>
+<th>Differential Pressure [Pa]</th>
 <th>Actual Volumeflow</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<th>0</th>
-<td>DIY Cotton Community Mask</td>
-<td>18</td>
-<td>19</td>
-<td>20</td>
-<td>0</td>
-<td>19.06</td>
-</tr>
-<tr>
 <th>1</th>
 <td>Cilander Community Mask</td>
-<td>33</td>
-<td>36</td>
-<td>39</td>
+<td>38</td>
+<td>43</td>
+<td>45</td>
 <td>5</td>
 <td>19.84</td>
 </tr>
 <tr>
 <th>2</th>
-<td>FFP2/KN95</td>
-<td>68</td>
-<td>72</td>
-<td>73</td>
+<td>Community Mask with integrated Filter</td>
+<td>18</td>
+<td>20</td>
+<td>22</td>
+<td>11</td>
+<td>20.34</td>
+</tr>
+<tr>
+<th>0</th>
+<td>DIY Cotton Community Mask</td>
+<td>21</td>
 <td>24</td>
-<td>21.03</td>
+<td>25</td>
+<td>0</td>
+<td>19.06</td>
 </tr>
 <tr>
 <th>3</th>
 <td>FFP2/KN95</td>
-<td>66</td>
-<td>68</td>
 <td>69</td>
+<td>74</td>
+<td>76</td>
 <td>24</td>
-<td>20.95</td>
+<td>21.03</td>
 </tr>
 <tr>
 <th>4</th>
 <td>FFP2/KN95</td>
-<td>66</td>
 <td>67</td>
-<td>67</td>
+<td>69</td>
+<td>70</td>
 <td>24</td>
-<td>20.90</td>
+<td>20.95</td>
 </tr>
 <tr>
 <th>5</th>
 <td>FFP2/KN95</td>
-<td>66</td>
+<td>67</td>
 <td>67</td>
 <td>68</td>
 <td>24</td>
-<td>21.18</td>
+<td>20.90</td>
 </tr>
 <tr>
 <th>6</th>
-<td>FFP2/KN95 Taped</td>
-<td>85</td>
-<td>86</td>
-<td>87</td>
-<td>29</td>
-<td>20.14</td>
+<td>FFP2/KN95</td>
+<td>67</td>
+<td>68</td>
+<td>69</td>
+<td>24</td>
+<td>21.18</td>
 </tr>
 <tr>
 <th>7</th>
 <td>FFP2/KN95 Taped</td>
 <td>88</td>
+<td>89</td>
+<td>90</td>
+<td>29</td>
+<td>20.14</td>
+</tr>
+<tr>
+<th>8</th>
+<td>FFP2/KN95 Taped</td>
 <td>92</td>
-<td>94</td>
+<td>98</td>
+<td>101</td>
 <td>29</td>
 <td>20.49</td>
 </tr>
 <tr>
-<th>8</th>
+<th>24</th>
+<td>Flat-Fabric Mask cheap</td>
+<td>12</td>
+<td>15</td>
+<td>17</td>
+<td>6</td>
+<td>20.28</td>
+</tr>
+<tr>
+<th>9</th>
 <td>Flat-Fabric Style Mask</td>
-<td>29</td>
 <td>31</td>
-<td>32</td>
+<td>33</td>
+<td>34</td>
 <td>7</td>
 <td>19.61</td>
 </tr>
 <tr>
-<th>9</th>
+<th>10</th>
 <td>Flat-Fabric Style Mask Taped</td>
-<td>33</td>
-<td>36</td>
-<td>38</td>
+<td>24</td>
+<td>28</td>
+<td>31</td>
 <td>22</td>
 <td>20.62</td>
 </tr>
 <tr>
-<th>10</th>
-<td>Lvinguard Community Mask (wrong size)</td>
-<td>41</td>
-<td>45</td>
-<td>47</td>
-<td>13</td>
-<td>20.74</td>
-</tr>
-<tr>
-<th>11</th>
-<td>Lvinguard Community Mask (wrong size) Taped</td>
-<td>56</td>
-<td>59</td>
-<td>60</td>
-<td>24</td>
-<td>19.92</td>
-</tr>
-<tr>
-<th>12</th>
-<td>Livipro Community Mask</td>
-<td>39</td>
-<td>41</td>
-<td>43</td>
-<td>4</td>
-<td>20.68</td>
-</tr>
-<tr>
 <th>13</th>
 <td>Livipro Community Mask Taped</td>
-<td>72</td>
-<td>74</td>
-<td>75</td>
+<td>87</td>
+<td>90</td>
+<td>91</td>
 <td>9</td>
 <td>21.34</td>
 </tr>
 <tr>
+<th>11</th>
+<td>Lvinguard Community Mask (wrong size)</td>
+<td>43</td>
+<td>47</td>
+<td>50</td>
+<td>13</td>
+<td>20.74</td>
+</tr>
+<tr>
+<th>12</th>
+<td>Lvinguard Community Mask (wrong size) Taped</td>
+<td>53</td>
+<td>57</td>
+<td>58</td>
+<td>24</td>
+<td>19.92</td>
+</tr>
+<tr>
 <th>14</th>
 <td>No Mask</td>
+<td>-1</td>
 <td>0</td>
 <td>0</td>
-<td>1</td>
 <td>0</td>
 <td>21.90</td>
 </tr>
@@ -185,17 +194,17 @@
 <tr>
 <th>16</th>
 <td>No Mask</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
+<td>-1</td>
+<td>-1</td>
+<td>-1</td>
 <td>0</td>
 <td>21.02</td>
 </tr>
 <tr>
 <th>17</th>
 <td>Odlo Community Mask</td>
-<td>15</td>
-<td>15</td>
+<td>14</td>
+<td>14</td>
 <td>15</td>
 <td>5</td>
 <td>19.68</td>
@@ -204,64 +213,55 @@
 <th>18</th>
 <td>Odlo Community Mask</td>
 <td>21</td>
-<td>23</td>
 <td>25</td>
+<td>27</td>
 <td>5</td>
 <td>26.08</td>
 </tr>
 <tr>
 <th>19</th>
 <td>Surgical Mask, bad Nosepiece</td>
-<td>18</td>
 <td>21</td>
-<td>23</td>
+<td>25</td>
+<td>27</td>
 <td>1</td>
 <td>19.99</td>
 </tr>
 <tr>
 <th>20</th>
 <td>Surgical Mask, bad Nosepiece Taped</td>
-<td>98</td>
-<td>104</td>
-<td>108</td>
-<td>17</td>
-<td>19.36</td>
+<td>100</td>
+<td>101</td>
+<td>101</td>
+<td>15</td>
+<td>21.93</td>
+</tr>
+<tr>
+<th>23</th>
+<td>Surgical Mask, good Nosepiece</td>
+<td>57</td>
+<td>60</td>
+<td>62</td>
+<td>6</td>
+<td>20.08</td>
 </tr>
 <tr>
 <th>21</th>
 <td>Surgical Mask, good Nosepiece</td>
-<td>60</td>
-<td>60</td>
-<td>60</td>
+<td>73</td>
+<td>73</td>
+<td>73</td>
 <td>7</td>
 <td>19.90</td>
 </tr>
 <tr>
 <th>22</th>
 <td>Surgical Mask, good Nosepiece</td>
-<td>34</td>
-<td>35</td>
-<td>35</td>
+<td>39</td>
+<td>40</td>
+<td>40</td>
 <td>5</td>
 <td>21.42</td>
-</tr>
-<tr>
-<th>23</th>
-<td>Surgical Mask, good Nosepiece</td>
-<td>48</td>
-<td>50</td>
-<td>51</td>
-<td>6</td>
-<td>20.08</td>
-</tr>
-<tr>
-<th>24</th>
-<td>Flat-Fabric Mask cheap</td>
-<td>14</td>
-<td>16</td>
-<td>18</td>
-<td>6</td>
-<td>20.28</td>
 </tr>
 </tbody>
 </table>
@@ -279,7 +279,6 @@
 <ul>
 <li>I used only one artificial head, the findings are only valid with for that exact head.</li>
 <li>Particulate matter measurements are hard, I used a very affordable sensor, not lab equipment</li>
-<li>The Efficiency scaling is off, I need to adjust it, but the relative comparison is valid</li>
 </ul>
 <h2>Setup</h2>
 <p>&nbsp;</p>
@@ -316,6 +315,12 @@
 <li>fit the exponential curve to the data<br /><img src="https://raw.githubusercontent.com/matts-ch/benchmask/main/semilog_fit_out_ffp2_shen_huan_taped1.png" alt="fit" width="640" height="480" /><br /><img src="https://raw.githubusercontent.com/matts-ch/benchmask/main/formulas.PNG" alt="" width="400" height="89" /><br />With the measured data (Mass=particulate matter concentration, volumeflow) a linear fit works well.&nbsp;</li>
 <li>normalize filtration efficiency and pressure drop with volume flow (sometimes it is not possible to perfectly match the desired volume flow)</li>
 </ul>
+<h2>&nbsp;</h2>
+<h2>Compensation</h2>
+<p>To compensate for the natural decay of the particle concentration, I performed several measurements without masks. Also with increased pressure drop (smaller outlet). The dependency before compensation looks like that</p>
+<p><img src="https://raw.githubusercontent.com/matts-ch/benchmask/main/plots/nomask_eff_compPNG.PNG" alt="" width="800" height="400" /></p>
+<p>I assume, that the increased impeller speed leads to more particulate matter deposition on the blades.&nbsp;</p>
+<h2>&nbsp;</h2>
 <h2><br />Next Steps</h2>
 <ul>
 <li>Improve Documentation</li>
