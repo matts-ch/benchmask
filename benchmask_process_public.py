@@ -79,18 +79,22 @@ nameswap={'odlo': 'Odlo Community Mask',
 
 
 
-# dimensions of the box
+# dimensions of the box in meters
 box=0.365*0.565*0.33
 
-# volume of head (measured by submerging the head in water -> displacement)
+# volume of head (measured by submerging the head in water -> displacement in m3)
 head=0.11**2*np.pi*0.1+0.11**2*np.pi*0.03
 
 # net volume
 volume=box-head
 
-# decay rate without mask
+# decay rate without mask to adjust for parasitic particle deposition in the rest of the setup (->zero offset correction)
+# uncomment print((1.-np.exp(m))) statement
 zero_p_rate=0.00051169268990*1.2
 
+# pressure compensation factor. Additional parasitic particle deposition per 1 Pa pressure difference increase
+# can be tested with decreased opening (without mask)
+# uncomment print((1.-np.exp(m))) statement and divide by pressure, then adjust slightly for best fit
 zero_p_1Pa=0.003081958917033223/45*0.64
 
 # theoretical decay rate with a mask with 100% filtration efficiency_pm1 (warning: magic number: 20=volume flow
@@ -215,6 +219,9 @@ for folder in [x[0] for x in os.walk(folderpath)]:
                         flow = data['F_'+flow_sensor+'_'+flow_serial]
                         if len(flow)>1:
                             flow=abs(np.median(flow))
+
+                # for setup calibration, use this raw value
+                # print((1. - np.exp(m)))
 
 
                 # compute efficiency, normalized by offset and maximum theoretical efficiency
@@ -451,9 +458,4 @@ if mainplot:
 
         # py.plot(fig, filename = 'Couture', auto_open=True)
         # py.plot(fig, filename = 'Kraftwerk', auto_open=True)
-
-
-
-
-
 
